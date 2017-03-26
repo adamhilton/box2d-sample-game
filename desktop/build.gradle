@@ -3,7 +3,7 @@ apply plugin: "kotlin"
 sourceCompatibility = 1.6
 sourceSets.main.java.srcDirs = [ "src/" ]
 
-project.ext.mainClassName = "com.nonnulldev.killthemonsters.desktop.DesktopLauncher"
+project.ext.mainClassName = "com.nonnulldev.b2dsamplegame.desktop.DesktopLauncher"
 project.ext.assetsDir = new File("../core/assets");
 
 task run(dependsOn: classes, type: JavaExec) {
